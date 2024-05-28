@@ -24,10 +24,10 @@ function App() {
 
   return (
     <div className='App'>
-      <section>
-        <h1>SALAMI</h1>
-      </section>
       <header className='App-header'>
+        <section>
+          <h1>SALAMI</h1>
+        </section>
         <img src={logo} className='App-logo' alt='logo' />
         <p>{!data ? "write your name..." : data}</p>
         <input onChange={(e) => setName(e.target.value)} />
